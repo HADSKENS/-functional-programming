@@ -22,7 +22,7 @@ public class Main {
                 return (o1.getValue()).compareTo(o2.getValue());
             }
         });
-        System.out.println("Кол-во слов в тексте "+count);
+        System.out.println("Кол-во слов в тексте " + count);
         if (list.size() < 10) {
             System.out.println("Топ 10 использованных слов");
             for (int i = 0; i < list.size(); i++) {
